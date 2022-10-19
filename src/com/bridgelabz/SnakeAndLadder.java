@@ -25,7 +25,7 @@ public class SnakeAndLadder {
                 System.out.println("The output is Six");
             }
 
-            System.out.println("-------------------------------------");
+            System.out.println("-------------------------------------"); 
 
             int checkPlay = (int)(Math.random() * 3);
 
