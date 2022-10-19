@@ -5,9 +5,12 @@ public class SnakeAndLadder {
 
         int playerPosition = 0;
         int roll = 0;
+        int count = 0;
 
         while(playerPosition<100){
             roll++;
+
+            count += 1;
 
             int dice = (int)(Math.random() * 6);
 
@@ -25,7 +28,7 @@ public class SnakeAndLadder {
                 System.out.println("The output is Six");
             }
 
-            System.out.println("-------------------------------------"); 
+            System.out.println("-------------------------------------");
 
             int checkPlay = (int)(Math.random() * 3);
 
@@ -53,5 +56,6 @@ public class SnakeAndLadder {
                 }
             }
         }
+        System.out.println("The dice count is " + count);
     }
 }
